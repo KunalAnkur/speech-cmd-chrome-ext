@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Video Voice Controller",
+  "version": "1.0",
+  "description": "Control video playback with voice commands.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
